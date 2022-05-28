@@ -4,3 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+a {
+    text-decoration: unset;
+}
+
+a:visited, a:link {
+    color: inherit;
+}

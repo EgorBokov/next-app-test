@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list {
+  margin-top: 20px;
+  display: block;
+  li {
+    padding: 12px;
+    list-style-type: none;
+    transition: 0.3s ease all;
+    &:hover {
+      border-radius: 6px;
+      border: 1px solid grey;
+      box-shadow: 3px 3px 2px rgba(0,0,0, 0.2);
+    }
+  }
+}
