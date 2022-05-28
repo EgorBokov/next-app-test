@@ -1,0 +1,15 @@
+.buttonWrapper {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  color: white;
+  padding: 10px 10px;
+  letter-spacing: 2px;
+  transition: 0.3s ease all;
+  &:hover {
+    background-color: white;
+    color: cornflowerblue;
+    border-color: cornflowerblue;
+  }
+}
